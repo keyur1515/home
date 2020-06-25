@@ -1,0 +1,47 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/regstyle.css" type="text/css" rel="stylesheet"/>
+  <title>Registration form</title><br>
+  <h1>Registration Form</h1>
+  <nav>
+    <img src="css/favicon.png" height="40">
+    <a href="https://www.google.co.in/" target="_blank">Google</a>
+    <a href="index.html">Home</a>
+    <a href="register.html">Registration</a>
+    <a href="#">FAQ</a>
+    <br>
+  </nav>
+  <h2>Fill in your details below:</h2>
+</head>
+<body>
+  <form class="form" method="get">
+    First Name:<input type="text" name="First Name"><br>
+    Last Name:<input type="text" name="Last Name"><br>
+    Email:<input type="text" name="Email" required><br>
+    Gender:<br>
+    <input type="radio" name=gender value="male">male<br>
+    <input type="radio" name=gender value="female">female<br>
+    <input type="radio" name=gender value="other">other<br>
+    Date of birth:<input type="date" name="birthday"><br>
+    Marks in 10th:<input type="number" name="10th Marks"><br>
+    Marks in 12th:<input type="number" name="12th Marks" required><br>
+    Preffered Location to Study:<br>
+    <select Name="Preffered Location">
+      <option value="Bnagalore">Bangalore</option>
+      <option value="Pune">Pune</option>
+      <option value="Nasik">Nasik</option>
+      <option value="Kolkata">Kolkata</option>
+      <option value="Mumbai">Mumbai</option>
+    </select><hr>
+    <input type="submit" value="Register">
+    <input type="reset" value="Reset">
+    <hr>
+  </form>
+</body>
+<footer>
+  <img id="foot" src="css/favicon.png" height="40">
+  Website made by Keyur Shinde
+</footer>
+</html>
